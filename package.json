@@ -1,0 +1,49 @@
+{
+  "name": "gatsbyjs-ecommerce",
+  "private": true,
+  "description": "A simple ecommerce site developed using gatsby , graphql and contentful. With paypal integration.",
+  "version": "0.1.0",
+  "author": "Tejas Sawant <tejas456sawant@gmail.com>",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "gatsby": "^2.20.12",
+    "gatsby-background-image": "^1.1.1",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^3.1.2",
+    "gatsby-plugin-react-helmet": "^3.2.2",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-snipcart": "^1.1.2",
+    "gatsby-source-contentful": "^2.2.9",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.9.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
