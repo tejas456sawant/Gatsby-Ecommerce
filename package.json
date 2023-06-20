@@ -6,7 +6,7 @@
   "author": "Tejas Sawant <tejas456sawant@gmail.com>",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.20.12",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^1.1.1",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-manifest": "^2.3.3",
